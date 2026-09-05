@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ben Holguín</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="Ben Holguín is an associate professor of philosophy at Johns Hopkins University. Most of his research is in epistemology and language, with connections to issues in mind, metaphysics, and action.">
+<meta name="keywords" content="philosophy, epistemology, philosophy of language, ben holguin, Johns Hopkins, JHU">
+<meta property="og:site_name" content="Ben Holguín">
+<meta property="og:title" content="Ben Holguín">
+<meta property="og:description" content="Associate professor of philosophy at Johns Hopkins University. Epistemology and language, with connections to issues in mind, metaphysics, and action.">
+<meta property="og:image" content="https://benholguin.com/headshot.jpg">
+<meta property="og:url" content="https://benholguin.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  /* Layout modeled on mmandelkern.github.io: wide container, two columns —
+     headshot + bio | drafts, then publications (years in a gray gutter) — with
+     venues as quiet gray italics. Font (Roboto) and accent color kept from the
+     old Weebly site — swap #8d2424 for #343BC2 below for Mandelkern's blue. */
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+    color: #3e3e3e; /* soft near-black from the old site */
+    margin: 10px;
+    line-height: 1.45;
+  }
+  .container { max-width: 960px; margin: 10px auto; } /* narrower than Mandelkern's 1200 so two columns fill it */
+
+  h2.page-title {
+    margin: 0.5em 0 0.4em 10px; /* left offset matches column padding */
+    font-weight: 300; /* the old site's title weight */
+  }
+
+  .row { display: flex; flex-wrap: wrap; }
+  .left { width: 25%; padding: 10px; }
+  .middle { flex: 1; max-width: 660px; padding: 10px; }
+  @media screen and (max-width: 800px) {
+    .left, .middle { width: 100%; max-width: none; }
+  }
+
+  a:link, a:visited { text-decoration: none; color: #8d2424; }
+  a:hover, a:active { text-decoration: underline; text-underline-offset: 2px; }
+
+  .headshot { display: block; width: 100%; max-width: 200px; height: auto; margin-bottom: 1.2em; }
+
+  /* Google Scholar / PhilPeople / email icon buttons on the CV line */
+  a.icon-link { display: inline-block; vertical-align: middle; line-height: 0; margin-left: 0.6em; }
+  a.icon-link:hover { text-decoration: none; }
+  a.icon-link img, a.icon-link svg { display: block; }
+
+  .sec { font-weight: bold; margin-bottom: 0.5em; }
+  .middle .sec { margin-left: 4em; } /* line up with paper titles (3em gutter + 1em gap) */
+  .middle .sec:not(:first-child) { margin-top: 1.6em; } /* breathing room before the second section */
+
+  .pub { margin: 0 0 0.7em; line-height: 1.25; }
+  .pub i { color: #6b6b6b; font-weight: 700; } /* journal names: bold, quiet gray */
+  a.venue { color: #6b6b6b; }             /* quiet secondary links (coauthors, etc.) */
+  a.venue:hover { color: #2a2a2a; }
+
+  /* year grouping: year shown once per group, in a light left gutter */
+  .grp { display: grid; grid-template-columns: 3em 1fr; column-gap: 1em; margin-bottom: 1em; }
+  .grp:last-child { margin-bottom: 0; }
+  .yr { text-align: right; color: #6b6b6b; font-size: 0.8em; letter-spacing: 0.03em; font-variant-numeric: tabular-nums; }
+  .grp .pub:last-child { margin-bottom: 0; }
+
+  /* [penultimate] links and [abstract] toggles */
+  .links { font-size: 0.85em; margin-top: 0.15em; }
+  .links a { color: #6b6b6b; }
+  .links a:hover { color: #2a2a2a; }
+  .abs-toggle {
+    background: none; border: none; padding: 0;
+    font: inherit; color: #6b6b6b; cursor: pointer;
+  }
+  .abs-toggle:hover { text-decoration: underline; text-underline-offset: 2px; color: #2a2a2a; }
+  .abstract { font-size: 0.9em; line-height: 1.4; color: #333; margin: 0.45em 0 0.3em; }
+  .abstract em { color: inherit; }
+
+  /* Phones: tighter year gutter so titles get more of the width (kept last so it wins) */
+  @media screen and (max-width: 500px) {
+    .grp { grid-template-columns: 2.5em 1fr; column-gap: 0.75em; }
+    .middle .sec { margin-left: 3.25em; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2 class="page-title">Ben Holgu&iacute;n</h2>
+
+  <div class="row">
+
+    <div class="left">
+      <img class="headshot" src="headshot.jpg" alt="Ben Holguín">
+
+      <div class="pub">I am an associate professor of philosophy at Johns Hopkins University.</div>
+      <div class="pub">Most of my research is in epistemology and language, with connections to issues in mind, metaphysics, and action.</div>
+      <div class="pub">
+        <a href="cv_sep_2026.pdf" target="_blank">CV</a>
+        <a class="icon-link" href="https://scholar.google.com/citations?user=eB0nU_8AAAAJ&amp;hl=en" target="_blank" title="Google Scholar" aria-label="Google Scholar"><svg width="22" height="22" viewBox="0 0 24 24" fill="#4285F4" xmlns="http://www.w3.org/2000/svg" role="img"><title>Google Scholar</title><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+        <a class="icon-link" href="https://philpeople.org/profiles/ben-holguin" target="_blank" title="PhilPeople" aria-label="PhilPeople"><img src="philpeople.png" alt="PhilPeople" width="18" height="18"></a>
+        <a class="icon-link" href="mailto:bholgui1@jhu.edu" title="Email" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" role="img"><title>Email</title><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg></a>
+      </div>
+    </div>
+
+    <div class="middle">
+
+      <div class="sec">Drafts/In Progress</div>
+
+      <!-- blank .yr cell keeps these titles aligned with the dated publications below -->
+      <div class="grp"><div class="yr"></div><div>
+        <div class="pub">
+          <a href="papers/wanting_at_will_shareable.pdf" target="_blank">Wanting at will</a>.
+          <div class="links"><button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper defends bouletic voluntarism, the thesis that we can (and often do) exercise direct voluntary control over our desires. In somewhat more detail: I argue that the facts about what we desire do not supervene on the facts about how desirable we find things. This is because our desires can sometimes discriminate between options we know to be equally desirable (like in Buridan cases), and because our desires can sometimes fail to discriminate between options we know to be unequally desirable (like in cases of sufficiently small differences). I argue that the best explanation of the grounds of our desires in such cases is one that implies bouletic voluntarism. The closing sections of the paper explore some of the implications of these ideas for questions concerning the role of desire in descriptive and normative theories of action.</div>
+        </div>
+        <div class="pub">
+          <a href="papers/full_belief_and_weak_belief_website.pdf" target="_blank">What does weak belief tell us about full belief?</a>
+          <div class="links"><button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>Epistemologists have recently begun to distinguish two notions of belief: full and weak. Full belief is typically characterized in terms of its connections to assertion, inquiry, and folk psychological explanations of action and inference. Weak belief, by contrast, is typically characterized in terms of the attitude expressed by 'thinks' in natural language sentences of the form 'S thinks that p'. As it turns out, these are very different kinds of doxastic attitudes. One might thus expect that our answers to questions about the nature and norms of one need not constrain our answers to questions about the nature and norms of the other. But weak belief actually has quite a lot to tell us about full belief. As proof of concept, I examine two debates about the nature of full belief, arguing in each case that there is much to be learned by considering what happens when the debate&rsquo;s central questions are translated into the idiom of weak belief. First, I discuss the debate about what explains the apparent impermissibility of full belief &ldquo;toggling&rdquo; (i.e., going back and forth between fully believing something and failing to fully believe it, without any change in one&rsquo;s evidence). I argue that toggling seems as impermissible for weak belief as it does for full belief, and that this has interesting implications for the &ldquo;uniqueness versus permissivism&rdquo; debate about full belief. And second, I explore the debate about whether (and if so, how) moral considerations can make a difference to the epistemological standing of one&rsquo;s full beliefs. I argue that if moral considerations can make a difference to the epistemic standing of one&rsquo;s full beliefs, it is most plausibly by way of their effects on the epistemic standing of one&rsquo;s weak beliefs. In the concluding sections of the paper, I draw some morals&mdash;mostly negative&mdash;about whether we can expect rational explanations of the existence of the doxastic norms related to toggling and moral encroachment.</div>
+        </div>
+        <div class="pub">
+          <a href="papers/on_the_plurality_of_counterfactuals_may_2024.pdf" target="_blank">On the plurality of counterfactuals</a>, with <a class="venue" href="https://www.trevorteitel.com/" target="_blank">Trevor Teitel</a>.
+          <div class="links"><button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>Counterfactuals are context-sensitive. However, we argue that various debates and doctrines in metaphysics and the philosophy of science are premised on ignoring the full extent of counterfactual context-sensitivity. Our focus is on the prominent "miracle" versus "no-miracle" debate about counterfactuals under the assumption that our laws of nature are deterministic. But we also discuss doctrines that employ counterfactuals in theories of rational decision, as well as doctrines that explain what it is to be a law of nature in terms of counterfactuals. We conclude by drawing some morals about the use of counterfactuals in philosophical theorizing more generally.</div>
+        </div>
+      </div></div>
+
+      <div class="sec">Publications</div>
+
+      <div class="grp"><div class="yr">2026</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLTVT" target="_blank">The vague, the assertable, and the omega-knowable</a>. <i>Inquiry</i>.
+          <div class="links"><a href="papers/vagueness_assertion_omega-knowledge_v4.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>It is widely accepted that knowledge is necessary for proper assertion. More controversial is the thesis that <em>omega</em>-knowledge&mdash;infinitely higher-order knowledge&mdash;is necessary for proper assertion. Proponents of the "KK" principle take the former thesis to entail the latter, since they take knowledge to entail omega-knowledge. But in <em>Iterated Knowledge</em>, Simon Goldstein both argues against the KK principle and in favor of the thesis that omega-knowledge is necessary for proper assertion. This paper argues that reflection on some independently plausible principles about the relationship between knowledge, assertion, and vagueness shows that Goldstein and the proponents of KK are both mistaken. First: if (as is widely accepted) vagueness is a barrier to knowledge, then one can't omega-know that it's vague what one omega-knows. But if omega-knowledge is plentiful, then it's clearly assertable (and thus knowable) that sometimes it's vague what one omega-knows. So if vagueness is a barrier to knowledge, then omega-knowledge can't be necessary for proper assertion, and knowledge can't entail omega-knowledge. Second: even if vagueness isn't a barrier to knowledge, it's a barrier to proper assertion. But this presents a dilemma for Goldstein: either being in a position to assert something entails being in a position to assert that one is in a position to assert it, or it doesn't. If it does, then one can't assert that it's sometimes vague what one is in a position to assert. But that looks like a problem, because it seems clear that one <em>can</em> assert that sometimes it's vague what one is in a position to assert. But if being in a position to assert something doesn't entail being in a position to assert that one is in a position to assert it, then the principle that assertion requires omega-knowledge fails to do the explanatory work Goldstein needs it to do. Either way, we should reject arguments for omega-knowledge anti-skepticism grounded in judgments about proper assertion.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2025</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/BLUFRG" target="_blank">Fictional reality</a>, with <a class="venue" href="https://sites.google.com/nyu.edu/kyleblumberg" target="_blank">Kyle Blumberg</a>. <i>The Philosophical Review</i>.<br>Selected for The Philosopher's Annual, vol. 45
+          <div class="links"><a href="papers/fr_website.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper defends a theory of fictional truth. According to this theory, there is a fact of the matter concerning the number of hairs on Sherlock Holmes' head, and likewise for any other meaningful question one could ask about what's true in a work of fiction. We argue that a theory of this form is needed to account for the patterns in our judgments about attitude reports that embed fictional claims. We contrast our view with one of the dominant approaches to fictional truth, which originates with David Lewis. Along the way we explore the relationship between fiction, counterfactuals, and vagueness.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2024</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLTWF" target="_blank">Trying without fail</a>, with <a class="venue" href="http://harveylederman.com/" target="_blank">Harvey Lederman</a>. <i>Philosophical Studies</i>.
+          <div class="links"><a href="papers/trying_without_fail.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>An action is <em>agentially perfect</em> if and only if, if a person tries to perform it, they succeed, and, if a person performs it, they try to. We argue that trying itself is agentially perfect: if a person tries to try to do something, they try to do it; and, if a person tries to do something, they try to try to do it. We show how this claim sheds new light on questions about basic action, the logical structure of intentional action, and the notion of &ldquo;options&rdquo; in decision theory. On the way to these central ideas, we argue that a person can try to do something even if they believe it is impossible that they will succeed, that a person can try to do something even if they do not want to succeed, and that a person can try to do something even if they do not intend to succeed.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2023</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/GOOTAB-5" target="_blank">Thinking and being sure</a>, with <a class="venue" href="https://jeremy-goodman.com/" target="_blank">Jeremy Goodman</a>. <i>Philosophy and Phenomenological Research</i>.
+          <div class="links"><a href="papers/thinking_and_being_sure_ppr.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>How is what we believe related to how we act? That depends on what we mean by "believe". On the one hand, there is what we're sure of: what our names are, where we were born, whether we're currently in front of a screen. Surety, in this sense, is not uncommon&mdash;it does not imply Cartesian absolute certainty, from which no possible course of experience could dislodge us. But there are many things that we think that we are not sure of. For example, we might think that it will rain sometime this month, but not be sure that it will. Both what we're sure of and what we think have important normative connections to action. But the connections are quite different. This paper explores these issues with respect to assertion, inquiry, and decision making. We conclude by arguing that there is no theoretically significant notion of "full belief" intermediate in strength between thinking and being sure.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2022</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLTGA-2" target="_blank">Thinking, guessing, and believing</a>. <i>Philosophers' Imprint</i>.
+          <div class="links"><a href="papers/tgb_pi_2022.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper defends the view, put roughly, that to think that p is to guess that p is the answer to the question at hand, and that to think that p rationally is for one&rsquo;s guess to that question to be (in a certain sense) non-arbitrary. Some theses that will be argued for along the way include: that thinking is question-sensitive and, correspondingly, that &lsquo;thinks&rsquo; is context-sensitive; that it can be rational to think that p while having arbitrarily low credence that p; that, nonetheless, rational thinking is closed under entailment; that thinking does not supervene on credence; and that in many cases what one thinks on certain matters is, in a very literal sense, a choice. Finally, since there are strong reasons to believe that thinking just is believing, there are strong reasons to believe that each of these claims is true of belief as well.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2021</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLKBC" target="_blank">Knowledge by constraint</a>. <i>Philosophical Perspectives</i>.
+          <div class="links"><a href="papers/kbc_phil_perspectives_2021.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper considers some puzzling knowledge ascriptions and argues that they present <em>prima facie</em> counterexamples to credence, belief, and justification conditions on knowledge, as well as to many of the standard meta-semantic assumptions about the context-sensitivity of &lsquo;know&rsquo;. It argues that these ascriptions provide new evidence in favor of contextualist theories of knowledge&mdash;in particular those that take the interpretation of &lsquo;know&rsquo; to be sensitive to the mechanisms of constraint.</div>
+        </div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLICW" target="_blank">Indicative conditionals without iterative epistemology</a>. <i>No&ucirc;s</i>.
+          <div class="links"><a href="papers/icwie_penultimate.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper argues that two widely accepted principles about the indicative conditional jointly presuppose the falsity of one of the most prominent arguments against epistemological iteration principles. The first principle about the indicative conditional, which has close ties both to the Ramsey test and the &ldquo;or-to-if&rdquo; inference, says that knowing a material conditional suffices for knowing the corresponding indicative. The second principle says that conditional contradictions cannot be true when their antecedents are epistemically possible. Taken together, these principles entail that it is impossible to be in a certain kind of epistemic state: namely, a state of ignorance about which of two partially overlapping bodies of knowledge corresponds to one&rsquo;s actual one. However, some of the more popular &ldquo;margin for error&rdquo; style arguments against epistemological iteration principles suggest that such states are not only possible, but commonplace. I argue that the tension between these views runs deep, arising just as much for non-factive attitudes like belief, presupposition, and certainty. I also argue that this is worse news for those who accept the principles about the indicative conditional than it is for those who reject epistemological iteration principles.</div>
+        </div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLLAK-3" target="_blank">Lying and knowing</a>. <i>Synthese</i>.
+          <div class="links"><a href="papers/l_k_penultimate.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper defends the simple view that in asserting that p, one lies iff one knows that p is false. Along the way it draws some morals about deception, knowledge, Gettier cases, belief, assertion, and the relationship between first- and higher-order norms.</div>
+        </div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/HOLKIT-3" target="_blank">Knowledge in the face of conspiracy conditionals</a>. <i>Linguistics and Philosophy</i>.
+          <div class="links"><a href="papers/k_cc_website_version.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>A plausible principle about the felicitous use of indicative conditionals says that there is something strange about asserting an indicative conditional when you know whether its antecedent is true. But in most contexts there is nothing strange at all about asserting indicative conditionals like &lsquo;If Oswald didn&rsquo;t shoot Kennedy, then someone else did&rsquo;. This paper argues that the only compelling explanation of these facts requires the resources of contextualism about knowledge.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2019</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/BLUEA-3" target="_blank">Embedded attitudes</a>, with <a class="venue" href="https://sites.google.com/nyu.edu/kyleblumberg" target="_blank">Kyle Blumberg</a>. <i>Journal of Semantics</i>.
+          <div class="links"><a href="papers/ea_penultimate.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper presents a puzzle involving embedded attitude reports. We resolve the puzzle by arguing that attitude verbs take restricted readings: in some environments the denotation of attitude verbs can be restricted by a given proposition. For example, when these verbs are embedded in the consequent of a conditional, they can be restricted by the proposition expressed by the conditional&rsquo;s antecedent. We formulate and motivate two conditions on the availability of verb restrictions: (i) a constraint that ties the content of restrictions to the &ldquo;dynamic effects&rdquo; of sentential connectives and (ii) a constraint that limits the availability of restriction effects to present tense verbs with first-person subjects. However, we also present some cases that make trouble for these conditions, and outline some possible ways of modifying the view to account for the recalcitrant data. We conclude with a brief discussion of some of the connections between our semantics for attitude verbs and issues concerning epistemic modals and theories of knowledge.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2018</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/BLUUAR" target="_blank">Ultra-liberal attitude reports</a>, with <a class="venue" href="https://sites.google.com/nyu.edu/kyleblumberg" target="_blank">Kyle Blumberg</a>. <i>Philosophical Studies</i>.
+          <div class="links"><a href="papers/ular_local.pdf" target="_blank">[penultimate]</a> <button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>Although much has been written about the truth-conditions of de re attitude reports, little attention has been paid to certain &lsquo;ultra-liberal&rsquo; uses of those reports. We believe that if these uses are legitimate, then a number of interesting consequences for various theses in philosophical semantics follow. The majority of the paper involves describing these consequences. In short, we argue that, if true, ultra-liberal reports bring counterexamples to a popular approach to de re attitude ascriptions, which we will call &lsquo;descriptivism&rsquo;; and combine with independently plausible principles about the logic of belief to imply that subjects can achieve omniscience about what exists from the armchair. Although we are not committed to the view that ultra-liberal reports are false, in the final part of the paper we discuss the prospects of pursuing a line according to which the acceptability of such reports ought not be taken at face value. We conclude by arguing that those who are sympathetic with this move might have reason to doubt the truth of an even broader class of acceptable de re attitude reports, namely those that have been taken to undermine orthodox accounts of de re attitude ascriptions.</div>
+        </div>
+      </div></div>
+
+      <div class="grp"><div class="yr">2013</div><div>
+        <div class="pub">
+          <a href="https://philpapers.org/rec/NEBTPT" target="_blank">Teaching philosophy through Lincoln-Douglas debate</a>, with <a class="venue" href="http://jakenebel.com/" target="_blank">Jake Nebel</a>, <a class="venue" href="https://sites.google.com/view/ryanwdavis/home" target="_blank">Ryan Davis</a>, and <a class="venue" href="https://sites.northwestern.edu/vanelswyk/" target="_blank">Peter van Elswyk</a>. <i>Teaching Philosophy</i>.
+          <div class="links"><button type="button" class="abs-toggle" aria-expanded="false">[abstract]</button></div>
+          <div class="abstract" hidden>This paper is about teaching philosophy to high school students through Lincoln-Douglas (LD) debate. LD, also known as &ldquo;values debate,&rdquo; includes topics from ethics and political philosophy. Thousands of high school students across the U.S. debate these topics in class, after school, and at weekend tournaments. We argue that LD is a particularly effective tool for teaching philosophy, but also that LD today falls short of its potential. We argue that the problems with LD are not inevitable, and we offer strategic recommendations for improving LD as a tool for teaching philosophy. Ultimately, our aim is to create a dialogue between LD and academic philosophy, with the hope that such dialogue will improve LD&rsquo;s capacity to teach students how to do philosophy.</div>
+        </div>
+      </div></div>
+
+    </div>
+
+
+
+  </div>
+</div>
+
+<script>
+  // [abstract] buttons toggle the abstract that follows them.
+  document.querySelectorAll('.abs-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const abs = btn.closest('.pub').querySelector('.abstract');
+      abs.hidden = !abs.hidden;
+      btn.setAttribute('aria-expanded', String(!abs.hidden));
+    });
+  });
+</script>
+
+</body>
+</html>
